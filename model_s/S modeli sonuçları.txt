@@ -1,0 +1,67 @@
+YOLOv5  2023-6-8 Python-3.10.9 torch-2.0.1+cpu CPU
+
+Fusing layers... 
+YOLOv5s summary: 213 layers, 7225885 parameters, 0 gradients
+Adding AutoShape... 
+Training: 100%|██████████| 60/60 [00:20<00:00,  2.97it/s]
+Predicting:   0%|          | 0/20 [00:00<?, ?it/s]image 1/1: 680x1024 2 broccolis
+Speed: 5.1ms pre-process, 297.6ms inference, 2.0ms NMS per image at shape (1, 3, 448, 640)
+Saved 1 image to runs\detect\exp
+Predicting:   5%|▌         | 1/20 [00:00<00:06,  2.81it/s]image 1/1: 768x1024 1 wine glass, 1 fork, 2 knifes, 1 broccoli, 1 dining table
+Speed: 6.0ms pre-process, 306.6ms inference, 2.0ms NMS per image at shape (1, 3, 480, 640)
+Saved 1 image to runs\detect\exp2
+Predicting:  10%|█         | 2/20 [00:00<00:06,  2.73it/s]image 1/1: 683x1024 1 broccoli
+Speed: 5.0ms pre-process, 300.3ms inference, 2.0ms NMS per image at shape (1, 3, 448, 640)
+Saved 1 image to runs\detect\exp3
+Predicting:  15%|█▌        | 3/20 [00:01<00:06,  2.77it/s]image 1/1: 575x1024 1 spoon, 3 bowls, 8 broccolis, 7 carrots, 1 pizza
+Speed: 3.0ms pre-process, 240.3ms inference, 2.0ms NMS per image at shape (1, 3, 384, 640)
+Saved 1 image to runs\detect\exp4
+Predicting:  20%|██        | 4/20 [00:01<00:05,  3.01it/s]image 1/1: 1024x1024 4 broccolis, 2 carrots
+Speed: 10.0ms pre-process, 452.3ms inference, 2.5ms NMS per image at shape (1, 3, 640, 640)
+Saved 1 image to runs\detect\exp5
+Predicting:  25%|██▌       | 5/20 [00:01<00:06,  2.45it/s]image 1/1: 768x1024 1 bowl, 1 broccoli, 4 carrots
+Speed: 6.0ms pre-process, 324.2ms inference, 2.0ms NMS per image at shape (1, 3, 480, 640)
+Saved 1 image to runs\detect\exp6
+Predicting:  30%|███       | 6/20 [00:02<00:05,  2.49it/s]image 1/1: 765x1024 1 broccoli
+Speed: 5.0ms pre-process, 293.1ms inference, 2.0ms NMS per image at shape (1, 3, 480, 640)
+Saved 1 image to runs\detect\exp7
+Predicting:  35%|███▌      | 7/20 [00:02<00:05,  2.59it/s]image 1/1: 890x1024 4 broccolis
+Speed: 6.9ms pre-process, 360.2ms inference, 3.0ms NMS per image at shape (1, 3, 576, 640)
+Saved 1 image to runs\detect\exp8
+Predicting:  40%|████      | 8/20 [00:03<00:04,  2.51it/s]image 1/1: 683x1024 1 broccoli
+Speed: 5.0ms pre-process, 283.4ms inference, 1.0ms NMS per image at shape (1, 3, 448, 640)
+Saved 1 image to runs\detect\exp9
+Predicting:  45%|████▌     | 9/20 [00:03<00:04,  2.64it/s]image 1/1: 1024x1024 4 broccolis, 2 carrots
+Speed: 9.0ms pre-process, 382.7ms inference, 2.5ms NMS per image at shape (1, 3, 640, 640)
+Saved 1 image to runs\detect\exp10
+Predicting:  50%|█████     | 10/20 [00:03<00:04,  2.48it/s]image 1/1: 1024x685 1 person, 2 cups, 1 bowl, 1 broccoli
+Speed: 4.0ms pre-process, 280.8ms inference, 1.0ms NMS per image at shape (1, 3, 640, 448)
+Saved 1 image to runs\detect\exp11
+Predicting:  55%|█████▌    | 11/20 [00:04<00:03,  2.60it/s]image 1/1: 764x1024 4 broccolis, 1 carrot
+Speed: 5.0ms pre-process, 297.8ms inference, 2.0ms NMS per image at shape (1, 3, 480, 640)
+Saved 1 image to runs\detect\exp12
+Predicting:  60%|██████    | 12/20 [00:04<00:03,  2.67it/s]image 1/1: 768x1024 5 broccolis
+Speed: 5.0ms pre-process, 311.1ms inference, 2.0ms NMS per image at shape (1, 3, 480, 640)
+Saved 1 image to runs\detect\exp13
+Predicting:  65%|██████▌   | 13/20 [00:04<00:02,  2.68it/s]image 1/1: 765x1024 1 wine glass, 1 cup, 1 fork, 1 broccoli, 3 carrots
+Speed: 4.0ms pre-process, 304.1ms inference, 2.0ms NMS per image at shape (1, 3, 480, 640)
+Saved 1 image to runs\detect\exp14
+Predicting:  70%|███████   | 14/20 [00:05<00:02,  2.70it/s]image 1/1: 681x1024 3 spoons, 1 bowl, 1 orange, 23 broccolis, 1 carrot
+Speed: 4.0ms pre-process, 286.7ms inference, 2.0ms NMS per image at shape (1, 3, 448, 640)
+Saved 1 image to runs\detect\exp15
+Predicting:  75%|███████▌  | 15/20 [00:05<00:01,  2.71it/s]image 1/1: 768x1024 1 knife, 1 spoon, 1 broccoli, 2 carrots, 1 dining table
+Speed: 5.5ms pre-process, 300.8ms inference, 1.0ms NMS per image at shape (1, 3, 480, 640)
+Saved 1 image to runs\detect\exp16
+Predicting:  80%|████████  | 16/20 [00:06<00:01,  2.72it/s]image 1/1: 1024x768 3 broccolis, 3 carrots
+Speed: 6.0ms pre-process, 295.3ms inference, 2.0ms NMS per image at shape (1, 3, 640, 480)
+Saved 1 image to runs\detect\exp17
+Predicting:  85%|████████▌ | 17/20 [00:06<00:01,  2.74it/s]image 1/1: 1024x596 2 broccolis
+Speed: 4.0ms pre-process, 231.7ms inference, 1.0ms NMS per image at shape (1, 3, 640, 384)
+Saved 1 image to runs\detect\exp18
+Predicting:  90%|█████████ | 18/20 [00:06<00:00,  2.96it/s]image 1/1: 996x1024 1 knife, 1 bowl, 1 pizza
+Speed: 8.0ms pre-process, 385.9ms inference, 2.0ms NMS per image at shape (1, 3, 640, 640)
+Saved 1 image to runs\detect\exp19
+Predicting:  95%|█████████▌| 19/20 [00:07<00:00,  2.63it/s]image 1/1: 768x1024 4 wine glasss, 2 cups, 1 fork, 1 broccoli, 2 carrots
+Speed: 5.0ms pre-process, 295.3ms inference, 2.0ms NMS per image at shape (1, 3, 480, 640)
+Saved 1 image to runs\detect\exp20
+Predicting: 100%|██████████| 20/20 [00:07<00:00,  2.66it/s]
